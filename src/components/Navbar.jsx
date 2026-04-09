@@ -61,8 +61,9 @@ const Navbar = () => {
             </Link>
           </div>
             <div className="hidden lg:block ml-10 flex items-baseline space-x-4">
-              {navLinks.map((nav) => (
+              {navLinks.map((nav, index) => (
                 <a
+                  key={index}
                   href={`#${nav.id}`}
                   onClick={()=>{
                     setIsOpen(false)
@@ -75,7 +76,7 @@ const Navbar = () => {
                 href='https://www.dropbox.com/scl/fi/qvarrk3frpci8hnndjtb0/Jason_Ching.pdf?rlkey=qimhg8idy9vdzgmkiz8ptpv94&st=5xbql8a1&dl=0'
                 target="_blank"
                 className="text-gray-200 bg-gray-700 hover:text-white hover:bg-gray-600 px-3 py-2 rounded-md text-sm font-medium"
-              >Resume <i class="fa-regular fa-paper-plane ml-1"></i></a>
+              >Resume <i className="fa-regular fa-paper-plane ml-1"></i></a>
             </div>
         </div>
         <div className="-mr-2 flex lg:hidden">
