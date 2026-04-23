@@ -198,7 +198,7 @@ const educations = [
     company_name: "The Hong Kong University of Science and Technology (HKUST) - Clear Water Bay, Hong Kong",
     icon: hku,
     iconBg: "#ffff",
-    date: "September 2013 - May 2019",
+    date: "April 2015 - April 2019",
     points: [
       "Worked with various programming languages and frameworks, such as React, React Native, and Node.js.",
       "Participated in a rigorous co-op program with a focus on full-stack web development.",
