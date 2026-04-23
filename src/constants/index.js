@@ -136,7 +136,7 @@ const technologies = [
 const experiences = [
   {
     title: "Senior Full-Stack Developer",
-    company_name: "EnliteAl",
+    company_name: "EnliteAI / Remote",
     icon: scopic,
     iconBg: "#ffff",
     date: "November 2023 - March 2025",
@@ -152,7 +152,7 @@ const experiences = [
   },
   {
     title: "Mid-Level Software Engineer",
-    company_name: "ScreenInteract",
+    company_name: "Payt / Remote",
     icon: oneforma,
     iconBg: "#ffff",
     date: "December 2021 - October 2023",
@@ -167,7 +167,7 @@ const experiences = [
   },
   {
     title: "Junior Full-Stack Developer",
-    company_name: "Greenfinch Technology",
+    company_name: "HCLTech / Office",
     icon: storecove,
     iconBg: "#ffff",
     date: "September 2019 - November 2021",
@@ -180,7 +180,7 @@ const experiences = [
   },
   {
     title: "Software Developer Intern",
-    company_name: "Webdoctor.ie",
+    company_name: "Webdoctor.ie / Remote",
     icon: storecove,
     iconBg: "#ffff",
     date: "June 2019 - September 2019",
@@ -203,17 +203,6 @@ const educations = [
       "Worked with various programming languages and frameworks, such as React, React Native, and Node.js.",
       "Participated in a rigorous co-op program with a focus on full-stack web development.",
       "Gained expertise in both frontend and backend technologies, including React, Node.js, and databases.",
-    ],
-  },
-  {
-    title: "Web Development Course",
-    company_name: "King George V School (KGV) - 2 Tin Kwong Rd, Ho Man Tin, Hong Kong",
-    icon: tkt,
-    iconBg: "#ffff",
-    date: "April 2010 - March 2013",
-    points: [
-      "Learned basic knowledge of computer science.",
-      "Studied web development concepts, including HTML, CSS, JavaScript",
     ],
   },
 
